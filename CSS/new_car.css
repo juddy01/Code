@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: left;
+}
+
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f4f4f4;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"],
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #555;
+}
+
+#new_car_form{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+#new_car_form label {
+    color: #333;
+}

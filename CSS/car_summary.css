@@ -1,0 +1,177 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"],
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+    background-color: #555;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-align: left;
+}
+
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+/* Gallery container */
+.gallery-container {
+    max-width: 300px; /* Adjust width to reduce size */
+    position: relative;
+    top: -275px;
+    overflow: hidden;
+    height: -500px; /* Adjust height to fit your images */
+    margin: 0 auto; /* Center the gallery */
+}
+
+/* Gallery images */
+.gallery-container img {
+    width: 100%;
+    display: none;
+    height: auto;
+}
+
+.gallery-container img.active {
+    display: block;
+}
+
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    width: auto;
+    margin-top: 10%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+.Details-container {
+    height: auto;
+    position: relative;
+    top: -230px; /* Adjusted for visibility */
+    left: 25px; /* Adjusted for visibility */
+    width: 300px;
+    text-align: left;
+    z-index: 1000;
+}
+
+.Details-container label {
+    color: #333;
+}
+
+.Details-container input[type="text"],
+.Details-container input[type="password"],
+.Details-container input[type="number"],
+.Details-container input[type="email"],
+.Details-container input[type="tel"],
+.Details-container textarea, 
+.Details-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Details-container input[type="submit"],
+.Details-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff; /* Changed color to white for better readability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.Details-container input[type="submit"]:hover,
+.Details-container button:hover {
+    background-color: #555;
+}
