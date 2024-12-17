@@ -25,9 +25,6 @@ function registration_verification() {
     if (!passwordRegex.test(password)) { 
         alert("Password must contain at least one letter, number, special character, and uppercase letter.");
         return false;
-    }
-    
-    // returning true if everything is valid
-    alert("Title selected: " + title);
+    }    
     return true; // Change to true to allow form submission if validation passes
 }
