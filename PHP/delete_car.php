@@ -1,6 +1,6 @@
 <?php
 session_start();
-include('db_connection.php'); // Include your database connection file
+include('db_connection.php'); 
 
 if (isset($_POST['vehicle_id'])) {
     $vehicle_id = $_POST['vehicle_id'];

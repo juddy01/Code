@@ -17,8 +17,6 @@ function registration_verification() {
     var email = document.getElementById("email").value;
     var telephone = document.getElementById("telephone").value; 
 
-    // Debugging step to check the value of title
-    console.log("Title:", title);
 
     if (!usernameRegex.test(username)) {
         alert("Username can only contain letters, numbers, and underscores.");
